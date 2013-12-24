@@ -1,3 +1,9 @@
+db (5.1.25-11build1pexip1) pexip; urgency=low
+
+  * Prepare Pexip packaging
+
+ -- John-Mark Bell <jmb@pexip.com>  Tue, 24 Dec 2013 14:29:33 +0000
+
 db (5.1.25-11build1) precise; urgency=low
 
   * No-change rebuild to drop spurious libsfgcc1 dependency on armhf.

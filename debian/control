@@ -1,8 +1,9 @@
 Source: db
 Section: libs
 Priority: standard
-Maintainer: Debian Berkeley DB Group <pkg-db-devel@lists.alioth.debian.org>
-Uploaders: Ondřej Surý <ondrej@debian.org>
+Maintainer: Pexip AS <packaging@pexip.com>
+XSBC-Pexip-Original-Maintainer: Debian Berkeley DB Group <pkg-db-devel@lists.alioth.debian.org>
+XSBC-Pexip-Original-Uploaders: Ondřej Surý <ondrej@debian.org>
 Standards-Version: 3.9.2
 Build-Depends: debhelper (>= 8.1.3~),
 	       tcl-dev,
@@ -13,6 +14,7 @@ Build-Depends: debhelper (>= 8.1.3~),
 Homepage: http://www.oracle.com/technology/software/products/berkeley-db/index.html
 Vcs-Browser: http://git.debian.org/?p=pkg-db/db.git
 Vcs-Git: git://git.debian.org/pkg-db/db.git
+XS-Pexip-Upstream: http://archive.ubuntu.com/ubuntu/ precise
 
 Package: db5.1-doc
 Architecture: all
